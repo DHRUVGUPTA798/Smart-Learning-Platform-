@@ -1,0 +1,54 @@
+/**
+ * subjects-variables.css
+ * ─────────────────────────────────────────────────────────
+ * CSS variables required by the Subjects feature.
+ *
+ * HOW TO USE:
+ *   If your existing project already defines these variables
+ *   in :root (from the previous homepage build), you're done —
+ *   no action needed.
+ *
+ *   If your React project has a fresh index.css / App.css,
+ *   paste the :root block below into that file.
+ * ─────────────────────────────────────────────────────────
+ */
+
+:root {
+  /* Dark backgrounds */
+  --bg:        #0a0a0f;
+  --bg-2:      #101018;
+  --bg-card:   #13131e;
+  --bg-card2:  #181826;
+
+  /* Borders */
+  --border:    rgba(255, 255, 255, 0.07);
+  --border-h:  rgba(255, 255, 255, 0.14);
+
+  /* Accent colors */
+  --accent:    #4f8ef7;
+  --accent-2:  #7c3aed;
+  --accent-3:  #06d6a0;
+  --accent-4:  #f4a261;
+
+  /* Text */
+  --text-1:    #f0f0f8;
+  --text-2:    #9898b0;
+  --text-3:    #5a5a72;
+
+  /* Layout */
+  --nav-h:     68px;
+
+  /* Typography */
+  /* Add these Google Fonts to your index.html <head> if not already present: */
+  /* <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet" /> */
+}
+
+/* Base resets — only add if not already in your project */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  font-family: 'DM Sans', sans-serif;
+  background: var(--bg);
+  color: var(--text-1);
+  -webkit-font-smoothing: antialiased;
+}
