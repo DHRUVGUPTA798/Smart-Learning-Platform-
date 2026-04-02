@@ -44,7 +44,7 @@ body {
   background: var(--bg);
   color: var(--text-1);
   overflow-x: hidden;
-  line-height: 1.6;
+  line-height: 1.5;
   -webkit-font-smoothing: antialiased;
 }
 
